@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+    <header class="header">
+        <img src="img/header.png">
+        <div class="container">
+            <span>DIALOG GROUP BBD</span>
+            <a href="#" class="lnk">Sign In</a>
+        </div>
+    </header>
+    <div class="content">
+        <div class="form-block2">
+            <p class="title1">Welcome</p>
+            <p class="title2">new user</p>
+            <form method="post">
+                <div class="form-group field1">
+                    <label class="form-label form-label-error" for="email">E-mail (login)</label> <!-- error class form-label-error-->
+                    <input id="email" class="form-input" type="text"/>
+                </div>
+                <div class="form-group field2">
+                    <label class="form-label form-label-error" for="password">Password</label> <!-- error class form-label-error-->
+                    <input id="password" class="form-input" type="password"/>
+                </div>
+                <div class="form-group field3">
+                    <label class="form-label form-label-error" for="password2">Repeat Password</label> <!-- error class form-label-error-->
+                    <input id="password2" class="form-input" type="password"/>
+                </div>
+                <div class="form-group field4">
+                    <label class="form-label form-label-error" for="name">Your Name</label> <!-- error class form-label-error-->
+                    <input id="name" class="form-input" type="text"/>
+                </div>
+            </form>
+            <div class="text-block1"> By clicking Registration, you agree to
+                <a href="#" class="form-btn terms1">User Agreement</a>, and <a href="#" class="form-btn terms2">Privacy Policy</a></div>
+
+            <a href="#" class="ibtn">
+                <p>Registration</p>
+            </a>
+            <p class="error-reg error-reg-show"> <!-- error class error-reg-show-->
+                Not all fields are filled in.<br>
+                Continue filling out the form.
+            </p>
+            <p>Already Registered?</p>
+            <a href="#" class="form-btn">Login to Account</a>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="name item">
+                <span>DIALOG GROUP BBD</span>
+                &copy; Bruce Ostrover, 2020
+            </div>
+            <div class="company item">
+                Markets OTQ Group<br/>
+                World's Best Retailer
+            </div>
+            <div class="contacts item">
+                <a href="#" class="lnk">Data used</a><br/>
+                E-mail: <a href="mailto:">info@bbd.com</a>
+            </div>
+            <div class="terms item">
+                <ul>
+                    <li><a href="#">Terms of use</a></li>
+                    <li><a href="#">Personal data processing</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

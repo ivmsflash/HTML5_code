@@ -1,0 +1,531 @@
+@import url('https://fonts.googleapis.com/css?family=Play:400,700&subset=cyrillic,cyrillic-ext')
+html
+body
+    overflow-x hidden
+body
+    font-family 'Play', sans-serif
+    font-size 14px
+    color #333333
+    @media screen and (max-width: 414px)
+        background-color #EDF2F6
+*
+    outline none
+.header
+    display block
+    height 130px
+    @media screen and (max-width: 414px)
+        height 55px
+    img
+        position absolute
+        z-index -1
+        @media screen and (max-width: 414px)
+            height 55px
+    .container
+        display flex
+        width 1140px
+        margin-left auto
+        margin-right auto
+        @media screen and (max-width: 1140px)
+            width 100vw
+        @media screen and (max-width: 414px)
+            justify-content center
+        > span
+            display inline-block
+            padding 51px 0 51px 10px
+            color #526b87
+            font-size 28px
+            @media screen and (max-width: 414px)
+                padding 10px 0 10px 0
+        > a
+            display inline-block
+            padding 56px 10px 56px 0
+            margin-left auto
+            font-size 18px
+            color #526b87
+            @media screen and (max-width: 414px)
+                padding 10px 10px 10px 0
+            @media screen and (max-width: 414px)
+                display none
+.content
+    display block
+    height 658px
+    margin-top 23px
+    @media screen and (max-width: 414px) and (max-height: 960px)
+        margin-top 0
+        height calc(100vh - 110px)
+    .form-block1
+        display block
+        width 555px
+        height 632px
+        margin-left auto
+        margin-right auto
+        background #EDF2F6
+        border-radius 8px
+        text-align center
+        @media screen and (max-width: 554px)
+            width 100vw
+        @media screen and (max-width: 414px)
+            padding-top calc(50vh - 281px)
+            height 452px
+        input
+            width 360px
+            @media screen and (max-width: 414px)
+                width 90vw
+                @media screen and (max-height: 600px)
+                    width 87vw
+        > .error-login
+            margin-bottom 30px
+            opacity 0
+            font-size 14px
+            color #ff0101
+            @media screen and (max-width: 414px) and (max-height: 600px)
+                margin-bottom 15px
+        > .error-login-show
+            opacity 1
+        > p
+            margin 0 0 5px 0
+            font-size 14px
+            color #999999
+        > .title1
+            margin 0
+            padding-top 112px
+            padding-bottom 3px
+            color #526b87
+            font-size 24px
+            font-style normal
+            @media screen and (max-width: 414px)
+                padding-top 0
+                @media screen and (max-height: 600px)
+                    padding-top 35px
+        > .title2
+            margin 0
+            padding-bottom 40px
+            color #999999
+            font-size 18px
+            @media screen and (max-width: 414px) and (max-height: 600px)
+                padding-bottom 30px
+        > .form-btn
+            display block
+            font-size 18px
+            color #526b87
+            text-decoration underline
+        > .forgotbtn
+            margin-top 30px
+        > .ibtn
+            margin-top 31px
+            margin-bottom 34px
+            @media screen and (max-width: 414px) and (max-height: 600px)
+                margin-bottom 15px
+    .form-block2
+        display block
+        width 555px
+        height 632px
+        margin-left auto
+        margin-right auto
+        background #EDF2F6
+        border-radius 8px
+        text-align center
+        @media screen and (max-width: 554px)
+            width 100vw
+        @media screen and (max-width: 414px)
+            padding-top calc(50vh - 291px)
+            height 472px
+            @media screen and (max-height: 600px)
+                padding-top calc(50vh - 284px)
+                height 458px
+        > form
+            display flex
+            flex-direction row
+            flex-wrap wrap
+            width 360px
+            margin-left auto
+            margin-right auto
+            @media screen and (max-width: 414px)
+                width 90vw
+                @media screen and (max-height: 600px)
+                    width 87vw
+            > .field1
+                width 360px
+                @media screen and (max-width: 414px)
+                    width 90vw
+                    @media screen and (max-height: 600px)
+                        width 87vw
+                > input
+                    width 348px
+                    @media screen and (max-width: 414px)
+                        width 86vw
+                        @media screen and (max-height: 600px)
+                            width 82vw
+            > .field2
+                width 165px
+                @media screen and (max-width: 414px)
+                    width 90vw
+                    @media screen and (max-height: 600px)
+                        width 87vw
+                > input
+                    width 153px
+                    @media screen and (max-width: 414px)
+                        width 86vw
+                        @media screen and (max-height: 600px)
+                            width 82vw
+            > .field3
+                width 165px
+                margin-left 30px
+                @media screen and (max-width: 414px)
+                    width 90vw
+                    margin-left 0
+                    @media screen and (max-height: 600px)
+                        width 87vw
+                > input
+                    width 153px
+                    @media screen and (max-width: 414px)
+                        width 86vw
+                        @media screen and (max-height: 600px)
+                            width 82vw
+            > .field4
+                width 360px
+                @media screen and (max-width: 414px)
+                    width 90vw
+                    @media screen and (max-height: 600px)
+                        width 87vw
+                > input
+                    width 348px
+                    @media screen and (max-width: 414px)
+                        width 86vw
+                        @media screen and (max-height: 600px)
+                            width 82vw
+        > .text-block1
+            width 360px
+            margin 38px auto 0 auto
+            font-size 14px
+            color #999999
+            @media screen and (max-width: 414px)
+                width 90vw
+                margin-top 14px
+            > .terms1
+                color #526B87
+            > .terms2
+                color #526B87
+        > .error-reg
+            margin-bottom 15px
+            opacity 0
+            font-size 14px
+            color #ff0101
+            @media screen and (max-width: 414px) and (max-height: 600px)
+                margin-bottom 11px
+        > .error-reg-show
+            opacity 1
+        > p
+            margin 0 0 5px 0
+            font-size 14px
+            color #999999
+        > .title1
+            margin 0
+            padding-top 65px
+            padding-bottom 3px
+            color #526b87
+            font-size 24px
+            font-style normal
+            @media screen and (max-width: 414px)
+                padding-top 7px
+                @media screen and (max-height: 600px)
+                    padding-bottom 0
+        > .title2
+            margin 0
+            padding-bottom 38px
+            color #999999
+            font-size 18px
+            @media screen and (max-width: 414px)
+                padding-bottom 7px
+                @media screen and (max-height: 600px)
+                    padding-bottom 0
+        > .form-btn
+            display block
+            font-size 18px
+            color #526b87
+            text-decoration underline
+        > .forgotbtn
+            margin-top 30px
+        > .ibtn
+            margin-top 35px
+            margin-bottom 27px
+            > p
+                text-align left
+                padding-left 20px
+            @media screen and (max-width: 414px)
+                margin-top 13px
+                margin-bottom 15px
+                @media screen and (max-height: 600px)
+                    margin-bottom 11px
+    .form-block3
+        display block
+        width 555px
+        height 632px
+        margin-left auto
+        margin-right auto
+        background #EDF2F6
+        border-radius 8px
+        text-align center
+        @media screen and (max-width: 554px)
+            width 100vw
+        @media screen and (max-width: 414px)
+            padding-top calc(50vh - 291px)
+            height 472px
+            @media screen and (max-height: 600px)
+                padding-top calc(50vh - 284px)
+                height 458px
+        .help-block
+            display flex
+            width 360px
+            height 76px
+            background #4675a9
+            border-radius 4px
+            margin-left auto
+            margin-right auto
+            margin-bottom 46px
+            vertical-align middle
+            @media screen and (max-width: 414px)
+                width 100vw
+                border-radius 0
+                margin-bottom 30px
+            > p
+                width 244px
+                margin auto
+                font-size 14px
+                color #fefefe
+                &:first-child
+                    display block
+                &:last-child
+                    display none
+        .help-block-error
+            > p
+                &:first-child
+                    display none
+                &:last-child
+                    display block
+        > form
+            display flex
+            flex-direction row
+            flex-wrap wrap
+            width 360px
+            margin-left auto
+            margin-right auto
+            @media screen and (max-width: 414px)
+                width 90vw
+                @media screen and (max-height: 600px)
+                    width 87vw
+            > .field1
+                width 165px
+                @media screen and (max-width: 414px)
+                    width 90vw
+                    @media screen and (max-height: 600px)
+                        width 87vw
+                > .form-input
+                    width 153px
+                    @media screen and (max-width: 414px)
+                        width 86vw
+                        @media screen and (max-height: 600px)
+                            width 82vw
+            > .field2
+                width 165px
+                margin-left 30px
+                @media screen and (max-width: 414px)
+                    width 90vw
+                    margin-left 0
+                    @media screen and (max-height: 600px)
+                        width 87vw
+                > .form-input
+                    width 153px
+                    @media screen and (max-width: 414px)
+                        width 86vw
+                        @media screen and (max-height: 600px)
+                            width 82vw
+            > .field3
+                width 360px
+                @media screen and (max-width: 414px)
+                    width 90vw
+                    @media screen and (max-height: 600px)
+                        width 87vw
+                > .form-input
+                    width 348px
+                    @media screen and (max-width: 414px)
+                        width 86vw
+                        @media screen and (max-height: 600px)
+                            width 82vw
+            > .field4
+                width 360px
+                @media screen and (max-width: 414px)
+                    width 90vw
+                    @media screen and (max-height: 600px)
+                        width 87vw
+                > .form-input
+                    width 348px
+                    @media screen and (max-width: 414px)
+                        width 86vw
+                        @media screen and (max-height: 600px)
+                            width 82vw
+            > .field5
+                width 360px
+                @media screen and (max-width: 414px)
+                    width 90vw
+                    @media screen and (max-height: 600px)
+                        width 87vw
+                > .form-input
+                    width 348px
+                    @media screen and (max-width: 414px)
+                        width 86vw
+                        @media screen and (max-height: 600px)
+                            width 82vw
+        > .title1
+            margin 0
+            padding-top 65px
+            padding-bottom 3px
+            color #526b87
+            font-size 24px
+            font-style normal
+            @media screen and (max-width: 414px)
+                display none
+        > .title2
+            margin 0
+            padding-bottom 38px
+            color #999999
+            font-size 18px
+            @media screen and (max-width: 414px)
+                display none
+        > .ibtn
+            margin-top 46px
+            @media screen and (max-width: 414px)
+                margin-top 24px
+
+.footer
+    color #fff
+    background #526b87
+    width 100vw
+    .container
+        display flex
+        width 1140px
+        height 130px
+        flex-direction row
+        justify-content space-between
+        align-items center
+        margin-left auto
+        margin-right auto
+        @media screen and (max-width: 1140px)
+            width 100vw
+        @media screen and (max-width: 860px)
+            flex-direction column
+            flex-wrap wrap
+            justify-content space-around
+        @media screen and (max-width: 414px)
+            height 55px
+        .item
+            //display inline-block
+            height 50px
+        > .name
+            padding-left 10px
+            @media screen and (max-width: 860px)
+                order 1
+                width 50%
+                text-align center
+            @media screen and (max-width: 414px)
+                display none
+            span
+                display block
+                font-size 24px
+        > .company
+            text-align center
+            line-height 24px
+            @media screen and (max-width: 860px)
+                order 2
+                width 50%
+            @media screen and (max-width: 500px)
+                display none
+        > .contacts
+            text-align center
+            line-height 24px
+            @media screen and (max-width: 860px)
+                order 3
+                width 50%
+            @media screen and (max-width: 414px)
+                width 100%
+                margin-top -20px
+            a
+                color #fff
+                @media screen and (max-width: 414px)
+                    &:first-child
+                        display none
+        > .terms
+            padding-right 10px
+            @media screen and (max-width: 860px)
+                order 4
+                width 50%
+            @media screen and (max-width: 500px)
+                display none
+            ul
+                padding 0
+                margin 0
+                list-style none
+                line-height 24px
+                text-align right
+                @media screen and (max-width: 860px)
+                    text-align center
+                li
+                    a
+                        display inline-block
+                        color #fff
+                        line-height 16px
+
+.lnk
+    text-decoration underline
+
+.ibtn
+    display block
+    width 166px
+    margin-left auto
+    margin-right auto
+    > p
+        position absolute
+        z-index 1
+        width 166px
+        text-align center
+        color white
+        font-size 18px
+        margin 10px auto
+    &:after
+        position relative
+        display block
+        width 166px
+        height 42px
+        content ''
+        background url(../img/btn.png) no-repeat center center
+.form-group
+    display block
+    height 45px
+    margin-top 5px
+    //text-align left
+    > .form-label
+        position absolute
+        color #999999
+    > .form-label-error
+        color #ff0000
+    > .form-input
+        height 28px
+        padding 0 5px
+        margin-top 16px
+        font-size 14px
+        color #526b87
+        background white
+        border 1px solid #999999
+        border-radius 3px
+        resize none
+        /*&:after
+            content ''
+            width 0
+            height 0
+            position absolute
+            right 15px
+            //top 50%
+            margin-top -3px
+            border-width 6px 6px 0 6px
+            border-style solid
+            border-color #8aa8bd transparent*/
